@@ -39,6 +39,7 @@ namespace iText7Console
             // CODE 39
             Paragraph pc3 = new Paragraph("*10000100*").SetFont(mrv39s).SetFontSize(6);
             pc3.SetTextAlignment(TextAlignment.LEFT);
+            pc3.SetRotationAngle(Math.PI / 2);
             doc.Add(pc3);
 
             Barcode39 barcode = new Barcode39(pdfDoc);
