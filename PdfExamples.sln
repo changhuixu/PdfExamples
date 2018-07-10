@@ -5,9 +5,13 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iText7Console", "iText7Console\iText7Console.csproj", "{A49F6607-A44A-42B8-9CF2-DF873E1E03E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfiumLightConsole", "PdfiumLightConsole\PdfiumLightConsole.csproj", "{E44C9576-C15E-485E-87C6-C8546E3584CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfiumLightConsole", "PdfiumLightConsole\PdfiumLightConsole.csproj", "{E44C9576-C15E-485E-87C6-C8546E3584CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrapeCityDocuments", "GrapeCityDocuments\GrapeCityDocuments.csproj", "{FFE8BFE3-328E-4775-9B30-4B485008142A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrapeCityDocuments", "GrapeCityDocuments\GrapeCityDocuments.csproj", "{FFE8BFE3-328E-4775-9B30-4B485008142A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronPdfConsole", "IronPdfConsole\IronPdfConsole.csproj", "{12DFE271-11DD-478B-8C60-BE157D77A917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharpCoreConsole", "PdfSharpCoreConsole\PdfSharpCoreConsole.csproj", "{EE8BC2A6-5A29-4C58-8425-DF49C7D04D03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{FFE8BFE3-328E-4775-9B30-4B485008142A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE8BFE3-328E-4775-9B30-4B485008142A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE8BFE3-328E-4775-9B30-4B485008142A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DFE271-11DD-478B-8C60-BE157D77A917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DFE271-11DD-478B-8C60-BE157D77A917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DFE271-11DD-478B-8C60-BE157D77A917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DFE271-11DD-478B-8C60-BE157D77A917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8BC2A6-5A29-4C58-8425-DF49C7D04D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8BC2A6-5A29-4C58-8425-DF49C7D04D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8BC2A6-5A29-4C58-8425-DF49C7D04D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8BC2A6-5A29-4C58-8425-DF49C7D04D03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
